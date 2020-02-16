@@ -1,0 +1,14 @@
+@import '~normalize.css';
+@import './less.less';
+
+
+@font-face{
+    font-family: 'NotoSerif-Bold';
+    src: url("../assets/fonts/NotoSerif-Bold.ttf") format('truetype');
+}
+
+body {
+    background-image: url('../assets/img/promo1.jpg');
+    font-family: NotoSerif-Bold, sans-serif;
+    color: red
+}
